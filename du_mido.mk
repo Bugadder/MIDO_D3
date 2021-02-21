@@ -27,6 +27,10 @@ $(call inherit-product, vendor/du/config/common_full_phone.mk)
 # Mido bootanimation flag
 TARGET_SCREEN_RES := 1080
 
+# ShapeShift specific properties
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.exui.cpu=SD625
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := du_mido
