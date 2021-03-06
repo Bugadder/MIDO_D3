@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosip_mido.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosip_mido-user \
-    aosip_mido-userdebug \
-    aosip_mido-eng
