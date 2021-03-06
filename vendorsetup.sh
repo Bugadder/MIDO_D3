@@ -10,7 +10,6 @@ git clone --depth=1 https://github.com/LineageOS/android_device_qcom_sepolicy -b
 add_lunch_combo aosip_mido-userdebug
 add_lunch_combo aosip_mido-user
 
-#auto clone kernel tree & vendor tree & device tree
+#auto clone kernel tree & vendor tree
 git clone --depth=1 https://github.com/Erickeagle3/android_kernel_xiaomi_mido -b lineage-18.1 kernel/xiaomi/mido
 git clone --depth=1 https://github.com/shashank1436/vendor_xiaomi-mido -b r11 vendor/xiaomi
-git clone --depth=1 https://github.com/ramdibaaz/MIDO_D3 -b r11 device/xiaomi/mido
