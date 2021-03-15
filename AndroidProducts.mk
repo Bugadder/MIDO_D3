@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_mido.mk
+    $(LOCAL_DIR)/corvus_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_mido-user \
-    aosip_mido-userdebug \
-    aosip_mido-eng
+    corvus_mido-user \
+    corvus_mido-userdebug \
+    corvus_mido-eng
