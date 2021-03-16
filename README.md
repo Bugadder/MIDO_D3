@@ -3,6 +3,7 @@
 credits 
 zeelog 
 shashank1436
+lineageos
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
