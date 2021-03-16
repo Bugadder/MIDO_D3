@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ROM & DEVICE stuff 
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit from Potato vendor
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Mido bootanimation flag
@@ -27,7 +27,7 @@ TARGET_SCREEN_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := aosip_mido
+PRODUCT_NAME := potato_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
