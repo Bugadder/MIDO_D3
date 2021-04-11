@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_mido.mk
+    $(LOCAL_DIR)/spark_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_mido-user \
-    aosip_mido-userdebug \
-    aosip_mido-eng
+    spark_mido-user \
+    spark_mido-userdebug \
+    spark_mido-eng
