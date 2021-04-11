@@ -33,8 +33,11 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
-
+    device/xiaomi/mido \
+    hardware/qcom-caf/msm8996/media \
+    hardware/qcom-caf/msm8996/display \
+    hardware/qcom-caf/msm8996/audio
+    
 # Permissions
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml \
